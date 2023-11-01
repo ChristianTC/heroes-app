@@ -91,9 +91,10 @@
   <div class="col-12 sm:col-6">
 
     <mat-card>
-      <img src="" alt="Hero Image" mat-card-image>
+      <img [src]="currentHero | heroImage" alt="Hero Image" mat-card-image>
     </mat-card>
 
   </div>
 
 </div>
+
