@@ -37,6 +37,19 @@ export class NewPageComponent {
 
     if(this.heroForm.invalid) return;
 
+    if (this.currentHero.id) {
+      this.heroesService.updateHero( this.currentHero )
+        .subscribe(hero => {
+          // TODO show snackbar
+        })
+
+      return
+    }
+
+    this.heroesService.addHero( this.currentHero )
+      .subscribe( hero => {
+        // TODO show snackbar, and navigate to /heroes/edit/hero.id
+      })
     // this.heroesService.updateHero(this.heroForm.value)
 
   }

@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "Eqsgoiy",
+      "superhero": "Carol Danvers",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Captain Marvel",
+      "first_appearance": "Marvel #232",
+      "characters": "Carol Danvers",
+      "alt_img": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg"
     }
   ]
 }
